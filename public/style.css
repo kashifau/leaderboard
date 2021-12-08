@@ -1,0 +1,112 @@
+body{
+	margin: 20px;
+	font-family: "Georgia";
+}
+.rounded-img > img{
+    border-radius: 50%;
+	border: 5px solid #ffffff;
+}
+.sidebar .card{
+    background: #f2f2f2e0;
+    border-radius: 1%;
+    margin: 10px;
+}
+.content .card{
+    border-radius: 1%;
+    margin: 10px;
+}
+.header-img {
+	background: url("assets/activity-header.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 21vh;
+	display: flex;
+}
+.btn-primary{
+	width: 145px;
+	background: #006699;
+	border: #006699;
+}
+.content .card{
+    border-radius: 1%;
+    margin: 10px;
+}
+.upper {
+  text-transform: uppercase;
+}
+.grey{
+	color: #686868;	
+}
+.strong{
+	font-weight: bold;
+}
+.about:before {
+	content: "";
+	background-image:url(assets/question.svg);
+	background-size: 100% 100%;
+	display: inline-block;
+	height: 15px;
+	width:15px;
+	position: relative;
+	margin-right: 4px;
+}
+.table-rounded-img > img{
+    border-radius: 50%;
+	width: 35px;
+}
+.blank-rounded-img {
+  background: #686868;
+  border-radius: 50%;
+  height: 0;
+  padding-bottom: 35px;
+  width: 35px;
+}
+.large-points{
+	color: #006699;
+	font-size: 20pt;
+	margin-top: 0px;
+}
+.points-table {
+	padding: 0px;
+}
+.rank {
+	position: absolute;
+	background: #fff;
+	border-radius: 2px;
+	width: 35px;
+	height: 17px;
+	top: 115px;
+	left: 65px;
+}
+.rank > span {
+	position: absolute;
+	padding-left: 7px;
+	bottom: 0.1px;
+	font-size: 10pt;
+}
+
+.trophy {
+    padding: 20px;
+    overflow: hidden;
+}
+.trophy img {
+	width: 50px;
+	border-radius: 50%;
+    margin-right: 15px;
+    float: left;
+	align-items: center;
+	border: 5px solid #ffffff;
+}
+.trophy h6, .trophy span{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+.dark-blue{
+	font-color: #006699;
+}
+.initials {
+	color: #fff;
+	padding: 8px 0px 0px 8px;
+}
+	
